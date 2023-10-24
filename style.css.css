@@ -1,0 +1,32 @@
+@import url('https://fonts.googleleapis.com/css2?family=Water+Brush&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gold;
+    font-family: 'Water Brush' , Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.box {
+    background-color: rgb(40, 87, 125);
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
+}
+    
+}
+
